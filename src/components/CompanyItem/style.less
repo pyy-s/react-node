@@ -1,0 +1,25 @@
+.wrap{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    &:first-child{
+        margin-top: 10px;
+    }
+    &:last-child{
+        border-bottom: none;
+    }
+    .left_body{
+        flex: 1;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .right_body{
+        flex: 3;
+        div{
+            margin-bottom: 4px;
+            div{margin-right: 10px;}
+        }
+    }
+}
