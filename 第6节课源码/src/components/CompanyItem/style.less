@@ -1,0 +1,23 @@
+.wrap {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 6px;
+    &:last-child{
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+    .header_img_wrap{
+        flex: 1;
+        text-align: center;
+        align-items: center;
+    }
+
+    .rightContent{
+        flex: 3;
+        div{
+            margin-bottom: 4px;
+        }
+    }
+}

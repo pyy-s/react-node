@@ -1,0 +1,25 @@
+.wrap{
+    display: flex;
+    flex-direction: column;
+    .item{
+        display: flex;
+        flex-direction: row;
+        padding: 5px 0;
+        border-bottom: 1px solid #ccc;
+        &:last-child{
+            border-bottom: none;
+        }
+        .d1{
+            flex: 1;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            display: flex;
+            flex-direction: column
+        }
+        .d2{
+            flex: 4;
+            padding-right: 10px;
+        }
+    }
+}

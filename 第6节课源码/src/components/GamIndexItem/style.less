@@ -1,0 +1,35 @@
+.wrap{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    padding-left: 0;
+    border-bottom: 1px solid #ccc;
+    line-height: 22px;
+    &:last-child{
+        border-bottom: none;
+    }
+    .headerImg{
+        flex: 1;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .info{
+        flex: 4;
+        .company{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .type{
+                background-color: #ccc;
+                padding: 2px 3px;
+                font-size: 12px;
+                color: #fff;
+            }
+        }
+        .footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+}
