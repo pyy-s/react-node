@@ -72,11 +72,7 @@ class FooterNav extends Component {
                     title="交易商城"
                     key="my"
                     selected={this.state.selectedTab === 'yellowTab'}
-                    onPress={() => {
-                        this.setState({
-                            selectedTab: 'yellowTab',
-                        });
-                    }}
+                    onPress={() => this.handlePress('yellowTab','/mall')}
                 >
 
                 </TabBar.Item>
