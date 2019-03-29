@@ -1,5 +1,4 @@
-# react-node
-## 全栈开发源码
+# react-node 全栈开发源码
 ### 前端是umi dva react redux
 ### 后端是 node hapijs mongodb mongoose
 #### 功能包含
